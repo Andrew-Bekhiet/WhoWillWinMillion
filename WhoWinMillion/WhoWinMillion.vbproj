@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{57F20750-F0EF-4931-A0BA-2901B6612947}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WhoWinMillion.My.MyApplication</StartupObject>
+    <RootNamespace>WhoWinMillion</RootNamespace>
+    <AssemblyName>WhoWinMillion</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <GenerateSerializationAssemblies>On</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>WhoWinMillion.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.Designer.vb">
+      <DependentUpon>About.vb</DependentUpon>
+    </Compile>
+    <Compile Include="About.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Design.Designer.vb">
+      <DependentUpon>Design.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Design.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpWatchers.Designer.vb">
+      <DependentUpon>HelpWatchers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HelpWatchers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.vb">
+      <DependentUpon>Main.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Qs.Designer.vb">
+      <DependentUpon>Qs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Qs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question.Designer.vb">
+      <DependentUpon>Question.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Question.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design.resx">
+      <DependentUpon>Design.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpWatchers.resx">
+      <DependentUpon>HelpWatchers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qs.resx">
+      <DependentUpon>Qs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question.resx">
+      <DependentUpon>Question.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FriendHelp.wav" />
+    <None Include="Resources\OptOut.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asset 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asset 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asset 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asset 11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Friend1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Friend2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Friend3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Friend4.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Friend5.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Friend11.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Friend12.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Friend13.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Friend14.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Friend21.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Friend22.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Friend23.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Friend24.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Friend31.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Friend32.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Friend33.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Friend34.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Friend41.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Friend42.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Friend43.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Friend44.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Friend51.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Friend52.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Friend53.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Friend54.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asset 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asset 6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asset 7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HelpFromWatchers.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Enter.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Start.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q4.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q5.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q6.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q7.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q8.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q9.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q10.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q11.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q12.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q13.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q14.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q15.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FontAwesome_f00d%280%29_512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FontAwesome_f0c7%280%29_512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Welcome.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A %281%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A %282%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A %283%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A %284%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A %285%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A %286%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A %287%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A %288%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A %289%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A %2810%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A %2811%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A %2812%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A %2813%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A %2814%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A %2815%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\False.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ans1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ans2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ans3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ans4.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stress.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\End.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhoWinMillion.ico" />
+    <None Include="Resources\WhoWinMillion.png" />
+    <Content Include="WhoWinMillion.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

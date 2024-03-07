@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Q1" xml:space="preserve">
+    <value>الشخص الذي فقد والديه يسمى ...</value>
+  </data>
+  <data name="Q1A1" xml:space="preserve">
+    <value>فقيرًا</value>
+  </data>
+  <data name="Q1A2" xml:space="preserve">
+    <value>أسيرًا</value>
+  </data>
+  <data name="Q1A3" xml:space="preserve">
+    <value>سجينًا</value>
+  </data>
+  <data name="Q1A4" xml:space="preserve">
+    <value>يتيمًا</value>
+  </data>
+  <data name="Q1RA" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Q2" xml:space="preserve">
+    <value>ما هو اسم صوت الديك؟</value>
+  </data>
+  <data name="Q2A1" xml:space="preserve">
+    <value>عندلة</value>
+  </data>
+  <data name="Q2A2" xml:space="preserve">
+    <value>مواء</value>
+  </data>
+  <data name="Q2A3" xml:space="preserve">
+    <value>صياح</value>
+  </data>
+  <data name="Q2A4" xml:space="preserve">
+    <value>طنين</value>
+  </data>
+  <data name="Q2RA" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Q3" xml:space="preserve">
+    <value>السنام عضو من أعضاء ...</value>
+  </data>
+  <data name="Q3A1" xml:space="preserve">
+    <value>الحمل</value>
+  </data>
+  <data name="Q3A2" xml:space="preserve">
+    <value>البلبل</value>
+  </data>
+  <data name="Q3A3" xml:space="preserve">
+    <value>العجل</value>
+  </data>
+  <data name="Q3A4" xml:space="preserve">
+    <value>الجمل</value>
+  </data>
+  <data name="Q3RA" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Q4" xml:space="preserve">
+    <value>ما هو مثنى كلمة "لوحة" ؟</value>
+  </data>
+  <data name="Q4A1" xml:space="preserve">
+    <value>لوحتان</value>
+  </data>
+  <data name="Q4A2" xml:space="preserve">
+    <value>لوحات</value>
+  </data>
+  <data name="Q4A3" xml:space="preserve">
+    <value>لحى</value>
+  </data>
+  <data name="Q4A4" xml:space="preserve">
+    <value>لواحة</value>
+  </data>
+  <data name="Q4RA" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Q5" xml:space="preserve">
+    <value>أي من الآلات الموسيقية التالية إيقاعية؟</value>
+  </data>
+  <data name="Q5A1" xml:space="preserve">
+    <value>الكمان</value>
+  </data>
+  <data name="Q5A2" xml:space="preserve">
+    <value>الغيتار</value>
+  </data>
+  <data name="Q5A3" xml:space="preserve">
+    <value>الناي</value>
+  </data>
+  <data name="Q5A4" xml:space="preserve">
+    <value>الدف</value>
+  </data>
+  <data name="Q5RA" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Q6" xml:space="preserve">
+    <value>من هو الشاعر الملقب بشاعر النيلين؟</value>
+  </data>
+  <data name="Q6A1" xml:space="preserve">
+    <value>حافظ ابراهيم</value>
+  </data>
+  <data name="Q6A2" xml:space="preserve">
+    <value>أحمد شوقي</value>
+  </data>
+  <data name="Q6A3" xml:space="preserve">
+    <value>أبو الطيب المتبني</value>
+  </data>
+  <data name="Q6A4" xml:space="preserve">
+    <value>خليل مطران</value>
+  </data>
+  <data name="Q6RA" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Q7" xml:space="preserve">
+    <value>كم يوما تستغرق مسابقات العشارى في ألعاب القوى؟</value>
+  </data>
+  <data name="Q7A1" xml:space="preserve">
+    <value>يوم واحد</value>
+  </data>
+  <data name="Q7A2" xml:space="preserve">
+    <value>يومين</value>
+  </data>
+  <data name="Q7A3" xml:space="preserve">
+    <value>ثلاثة أيام</value>
+  </data>
+  <data name="Q7A4" xml:space="preserve">
+    <value>أربعة أيام</value>
+  </data>
+  <data name="Q7RA" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Q8" xml:space="preserve">
+    <value>كم عدد الجزر التي تتكون منها دولة جزر القمر الإتحادية؟</value>
+  </data>
+  <data name="Q8A1" xml:space="preserve">
+    <value>ثلاث جزر</value>
+  </data>
+  <data name="Q8A2" xml:space="preserve">
+    <value>أربع جزر</value>
+  </data>
+  <data name="Q8A3" xml:space="preserve">
+    <value>خمس جزر</value>
+  </data>
+  <data name="Q8A4" xml:space="preserve">
+    <value>ست جزر</value>
+  </data>
+  <data name="Q8RA" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Q9" xml:space="preserve">
+    <value>من هو مؤلف كتاب لسان العرب؟</value>
+  </data>
+  <data name="Q9A1" xml:space="preserve">
+    <value>الجاحظ</value>
+  </data>
+  <data name="Q9A2" xml:space="preserve">
+    <value>ابن النفيس</value>
+  </data>
+  <data name="Q9A3" xml:space="preserve">
+    <value>ابن الهيثم</value>
+  </data>
+  <data name="Q9A4" xml:space="preserve">
+    <value>إبن منظور</value>
+  </data>
+  <data name="Q9RA" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Q10" xml:space="preserve">
+    <value>"واس" هو اختصار لإسم وكالة الأنباء ...</value>
+  </data>
+  <data name="Q10A1" xml:space="preserve">
+    <value>السعودية</value>
+  </data>
+  <data name="Q10A2" xml:space="preserve">
+    <value>الإسبانية</value>
+  </data>
+  <data name="Q10A3" xml:space="preserve">
+    <value>الفرنسية</value>
+  </data>
+  <data name="Q10A4" xml:space="preserve">
+    <value>المغربية</value>
+  </data>
+  <data name="Q10RA" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Q11" xml:space="preserve">
+    <value>ما هو أثقل المعادن؟</value>
+  </data>
+  <data name="Q11A1" xml:space="preserve">
+    <value>الراديوم</value>
+  </data>
+  <data name="Q11A2" xml:space="preserve">
+    <value>الحديد</value>
+  </data>
+  <data name="Q11A3" xml:space="preserve">
+    <value>اليورانيوم</value>
+  </data>
+  <data name="Q11A4" xml:space="preserve">
+    <value>الذهب</value>
+  </data>
+  <data name="Q11RA" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Q12" xml:space="preserve">
+    <value>ما هي ثاني أكبر دولة في أمريكا الجنوبية مساحة؟</value>
+  </data>
+  <data name="Q12A1" xml:space="preserve">
+    <value>البرازيل</value>
+  </data>
+  <data name="Q12A2" xml:space="preserve">
+    <value>فنزويلا</value>
+  </data>
+  <data name="Q12A3" xml:space="preserve">
+    <value>الأرجنتين</value>
+  </data>
+  <data name="Q12A4" xml:space="preserve">
+    <value>بيرو</value>
+  </data>
+  <data name="Q12RA" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Q13" xml:space="preserve">
+    <value>كوكب شمسي توجد على سطحه بقعة صحراء كبيرة ما هو؟</value>
+  </data>
+  <data name="Q13A1" xml:space="preserve">
+    <value>المشتري</value>
+  </data>
+  <data name="Q13A2" xml:space="preserve">
+    <value>الأرض</value>
+  </data>
+  <data name="Q13A3" xml:space="preserve">
+    <value>عطارد</value>
+  </data>
+  <data name="Q13A4" xml:space="preserve">
+    <value>المريخ</value>
+  </data>
+  <data name="Q13RA" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Q14" xml:space="preserve">
+    <value>في أي عام ميلادي بدأ التقويم الهجري؟</value>
+  </data>
+  <data name="Q14A1" xml:space="preserve">
+    <value>632 م</value>
+  </data>
+  <data name="Q14A2" xml:space="preserve">
+    <value>622 م</value>
+  </data>
+  <data name="Q14A3" xml:space="preserve">
+    <value>642 م</value>
+  </data>
+  <data name="Q14A4" xml:space="preserve">
+    <value>662 م</value>
+  </data>
+  <data name="Q14RA" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Q15" xml:space="preserve">
+    <value>ما هي جنسية أول طبيب فكر في استنساخ البشر؟</value>
+  </data>
+  <data name="Q15A1" xml:space="preserve">
+    <value>مصري</value>
+  </data>
+  <data name="Q15A2" xml:space="preserve">
+    <value>فرنسي</value>
+  </data>
+  <data name="Q15A3" xml:space="preserve">
+    <value>أمريكي</value>
+  </data>
+  <data name="Q15A4" xml:space="preserve">
+    <value>إيطالي</value>
+  </data>
+  <data name="Q15RA" xml:space="preserve">
+    <value>3</value>
+  </data>
+</root>
